@@ -6,7 +6,7 @@
 
 Import-Module posh-git
 
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/raeffs/dotfiles/main/oh-my-posh.config.yml' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/raeffs/dotfiles-old/main/oh-my-posh.config.yml' | Invoke-Expression
 
 Invoke-Expression (& { (zoxide init --cmd cd powershell | Out-String) })
 
